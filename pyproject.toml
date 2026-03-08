@@ -1,0 +1,16 @@
+[project]
+name = "cave-diver"
+version = "0.1.0"
+description = "Context-aware Claude agent harness with threshold warnings instead of compaction"
+readme = "README.md"
+authors = [
+    { name = "Jes Wolfe!", email = "jes5199@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=0.52.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
